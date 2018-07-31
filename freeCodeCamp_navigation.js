@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         user_navigation
 // @namespace    http://tampermonkey.net/
-// @version      0.1
+// @version      0.1.1
 // @description  User navigation block on freeCodeCamp.org
 // @author       Yeugen
 // @match        https://learn.freecodecamp.org/
@@ -80,6 +80,6 @@
 		block_close();
 		openList();
 		getCompletedLi();
-	}, 1e3);
+	}, 3e3);
 
 })();
