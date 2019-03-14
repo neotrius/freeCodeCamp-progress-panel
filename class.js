@@ -1,3 +1,4 @@
+// snippet
 // ES6 style
 class Product
 {
